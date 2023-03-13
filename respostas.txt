@@ -1,0 +1,60 @@
+1) Observe o trecho de código abaixo:
+
+int INDICE = 13, SOMA = 0, K = 0;
+
+enquanto K < INDICE faça
+
+{
+
+K = K + 1;
+
+SOMA = SOMA + K;
+
+}
+
+imprimir(SOMA);
+
+
+
+Ao final do processamento, qual será o valor da variável SOMA?
+
+Resposta: 
+
+    Seguindo a lógica que o código utiliza de um loop para repetir a instrução que leva ao valor da variável SOMA e que essa instrução também soma o valor de 1 a variável K, onde esse loop se repete até que o valor da variável K seja igual ou maior ao valor da variável INDICE, o valor de SOMA será de 91.
+
+=========================================================
+
+3) Descubra a lógica e complete o próximo elemento:
+
+a) 1, 3, 5, 7, ___ | Próximo número = 9. Números impares aumentando de 2 em 2.
+
+b) 2, 4, 8, 16, 32, 64, ____ | Próximo número = 128. Os números estão sendo dobrados a cada termo.
+
+c) 0, 1, 4, 9, 16, 25, 36, ____ | Próximo número = 49. A sequência está sendo feita pelo quadrado dos números naturais (0, 1, 2, 3...).
+
+d) 4, 16, 36, 64, ____ | Próximo número = 100. A sequência está sendo feita pelo quadrado dos números pares (2, 4, 6, 8...).
+
+e) 1, 1, 2, 3, 5, 8, ____ | Próximo número = 13. Fibonacci. 
+
+f) 2,10, 12, 16, 17, 18, 19, ____ | Não há como prever pois não tem conexão comum entre os termos. 
+
+=========================================================
+
+4) Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+
+IMPORTANTE:
+
+a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
+
+b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+
+c) Explique como chegou no resultado.
+
+Calculando o tempo do carro:
+    tempo_carro = 100 km / 110km/h = 0,91h
+
+Calculando o tempo do caminhão:
+    tempo_caminhão = 100 km / 80km/h / 2*5 = 1,38h
+
+Tendo em vista que o carro tem vantagem sobre o caminhão sobre a velocidade por hora, é possível observar que partindo de Ribeirão Preto, ele estará mais próximo quando os dois se cruzarem, pois ele terá mais km percorridos, conforme o próprio enunciado. 
+
